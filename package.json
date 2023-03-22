@@ -1,0 +1,32 @@
+{
+  "name": "pr4-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "source": "/src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n1x1337/PR4WEB.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/n1x1337/PR4WEB/issues"
+  },
+  "homepage": "https://github.com/n1x1337/PR4WEB#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
+    "parcel": "^2.8.3"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.3",
+    "jquery": "^3.6.4",
+    "jquery-modal": "^0.9.2"
+  }
+}

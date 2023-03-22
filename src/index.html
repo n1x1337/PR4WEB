@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.scss">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <div class="slider-container">
+              <div class="slider">
+                <div class="slide active"><img src="https://picsum.photos/800/300?random=1"></div>
+                <div class="slide"><img src="https://picsum.photos/800/300?random=2"></div>
+                <div class="slide"><img src="https://picsum.photos/800/300?random=3"></div>
+                <div class="slide"><img src="https://picsum.photos/800/300?random=4"></div>
+              </div>
+              <div class="slider-nav">
+                <button class="slider-backward btn btn-secondary" disabled><i class="fa fa-chevron-left"></i></button>
+                <button class="slider-forward btn btn-secondary"><i class="fa fa-chevron-right"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <button class="btn btn-primary" id="open-modal">Open Modal</button>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Modal Title</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>Modal content goes here</p>
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+<script type="module" src="./js/script.js"></script>
+</html>
